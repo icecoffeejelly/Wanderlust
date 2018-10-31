@@ -1,0 +1,389 @@
+html,
+body {
+      margin: 0;
+      padding: 0;
+      width: 100%;}
+
+body{
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+    }
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: url(banner.png) no-repeat 50% 50%;
+  background-size: cover;}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+  color: #777;
+}
+.content{
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;}
+
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: #A0522D;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 60px;
+  z-index: 9999;}
+
+nav ul {
+  line-height: 60px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;}
+
+nav.black ul {
+  background: #fff;}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 40px;}
+
+nav ul li a {
+  text-decoration: none;
+  color: #A0522D;
+  font-size: 20px;}
+
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background: #fff;
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #black;
+  display: none;}
+
+@media(max-width: 786px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    margin-top: 16px;}
+
+  nav ul {
+    max-height: 0px;
+    background: #fff;}
+
+  nav.black ul {
+    background: #fff;}
+
+  .showing {
+    max-height: 34em;}
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 24px;
+    text-align: center;}
+
+  .menu-icon {
+    display: block;} }
+
+/*Parallax*/
+.bgimg-1{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("huf.jpg");
+  min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.caption span.border {
+  background-color: transparent;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1{
+        background-attachment: scroll;
+    }
+}
+
+/*Button Parallax*/
+.button {
+    background-color: #B0C4DE;
+    border: double;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin:auto;
+    display:block;
+}
+
+  .bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+/*      padding-top: 70px;
+      padding-bottom: 70px;*/
+  max-width: 100%;
+  margin: 0 auto;
+  background: white;
+  font-size: 24px;
+  padding: 25px;
+  }
+
+/* carousel food */
+.mediafood-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.mediafood-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.mediafood-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.mediafood-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.mediafood-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.mediafood-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.mediafood-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel food */
+
+/* carousel fashion */
+.mediafashion-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.mediafashion-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.mediafashion-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.mediafashion-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.mediafashion-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.mediafashion-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.mediafashion-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel fashion */
+
+/* carousel travel */
+.mediatravel-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.mediatravel-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.mediatravel-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.mediatravel-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.mediatravel-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.mediatravel-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.mediatravel-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel travel */
+
+/*Portfolio Gallery Grid*/
+/* Center website */
+
+.row {
+    /*margin: 8px -16px;*/
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    /*padding: 8px;*/
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+}
+
+.yuhu{
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
