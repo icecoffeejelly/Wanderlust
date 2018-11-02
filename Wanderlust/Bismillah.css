@@ -12,7 +12,7 @@ body{
 header{
   width: 100%;
   height: 100vh;
-  background: url(banner.png) no-repeat 50% 50%;
+  background: url(huff.jpg) no-repeat 50% 50%;
   background-size: cover;}
 
 body, html {
@@ -105,6 +105,17 @@ nav ul li a {
   .menu-icon {
     display: block;} }
 
+p {
+  font-family: Times New Roman;
+  color: black;
+}
+
+h1 {
+  font-family: Girls Have Many Secrets;
+}
+
+
+
 /*Parallax*/
 .bgimg-1{
   position: relative;
@@ -116,7 +127,7 @@ nav ul li a {
 
 }
 .bgimg-1 {
-  background-image: url("huf.jpg");
+  background-image: url("banner.png");
   min-height: 100%;
 }
 
@@ -160,6 +171,7 @@ nav ul li a {
     display:block;
 }
 
+/*Portfolio Gallery Grid*/
   .bg-3 { 
       background-color: #ffffff;
       color: #555555;
@@ -167,11 +179,11 @@ nav ul li a {
   .container-fluid {
 /*      padding-top: 70px;
       padding-bottom: 70px;*/
-  max-width: 100%;
+  max-width: 55%;
   margin: 0 auto;
   background: white;
   font-size: 24px;
-  padding: 25px;
+  padding: 50px;
   }
 
 /* carousel food */
@@ -191,7 +203,7 @@ nav ul li a {
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  margin-top: 30px
+  margin-top: 50px
 }
 /* Next button  */
 .mediafood-carousel .carousel-control.right 
@@ -203,7 +215,7 @@ nav ul li a {
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  margin-top: 30px
+  margin-top: 50px
 }
 /* Changes the position of the indicators */
 .mediafood-carousel .carousel-indicators 
@@ -355,7 +367,7 @@ nav ul li a {
 /* Create four equal columns that floats next to each other */
 .column {
     float: left;
-    width: 25%;
+    width: 33%;
 }
 
 /* Clear floats after rows */ 
@@ -371,7 +383,8 @@ nav ul li a {
 }
 
 .yuhu{
-  padding: 10px;
+  padding: 20px;
+  background-color: #ffcc99;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
