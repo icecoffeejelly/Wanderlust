@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Life’s a PiKNiK</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Bismillah.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  
+  <!-- grid -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="menu-icon">
+      <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <div class="logo"><a href="Wonderlust.html" style="text-decoration: none; color: #A0522D; font-family: bakery">Wonderlust</a></div>
+    <div class="menu" style="font-family: Girls Have Many Secrets; font-size: 20px; font-weight: bold;">
+    <ul>
+      <li><a href="foodpage.html" id="food">Food</a></li>
+      <li><a href="fashionpage.html" id="fashion">Fashion</a></li>
+      <li><a href="travelpage.html" id="travel">Travel</a></li>
+    </ul>
+    </div>
+  </nav>
+
+  <br><br><br><br>
+
+  <div class="bg-3 text-center">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <H1>Life’s a PiKNiK</H1>
+          <br>
+          <p style="text-align: justify;">
+          <img src="pict/Food&Drink/PiKNiK/1.jpg" style="width: 100%">
+          <br><br>
+          Swimming pool, bright-coloured floats, coconuts, and radio-friendly tunes blasting from speakers. These are the usual thoughts that pop to mind when one mentions a short getaway from the city. But what if the break remains in the city and doesn’t cost you a fortune 
+          <br><br>
+          Located in the area of Lebak Bulus, within a bed & breakfast called Arif Inn, PiKNiK is what you’d expect to walk into when you’re on a holiday to a tropical island like Bali. The traffic you have to endure may not be appealing, but it definitely beats the hassle of a domestic flight.  
+          <br><br>
+          <img src="pict/Food&Drink/PiKNiK/2.jpg" style="width: 100%">
+          <br><br>
+          Food wise, the menu offers options that reflect the laid-back tropical vibe, such as fried mix crackers, Cenil Rainbow Ice and Thai Crab Salad. Heftier choices like Tempoyak (fermented durian) Fried Rice and Philly Cheese Steak are also available. But given the constant sunny weather in Jakarta, it’s easy to gravitate towards drinks like fruit juice, kombucha and lemonade to kick things off first.
+          <br><br>
+          <img src="pict/Food&Drink/PiKNiK/3.jpg" style="width: 100%">
+          <br><br>
+          If you’re here for the full experience, just switch into your swimming gear then proceed to jump into the pool while waiting for your food to arrive. Those who are looking for a space to work during weekdays might want to pay PiKNiK a visit too. While the atmosphere can get lively at the outdoor area, things are much more composed inside where you can type away on your laptop to the company of staffs prepping food at the counter
+          <br><br>
+          Shielded from the commotion of the main road, PiKNiK aims to help you to leave behind the fact that you’re still within the city. The fantasy may be a short one but it beats having none. Here, life’s a picnic and everyone’s invited. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="container">
+      <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a class="btn-floating btn-fb mx-1">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-tw mx-1">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn-floating btn-dribbble mx-1">
+                <i class="fab fa-pinterest"></i>
+              </a>
+            </li>
+          </ul>
+    </div>
+
+    <div class="footer-copyright text-center py-3" style="font-size: 14px;">© 2018 Copyright:
+          <a href="Wonderlust.html">Wanderlust.</a>
+      </div>
+  </footer>
+
+  <script type="text/javascript">
+    // Menu-toggle button
+      $(document).ready(function() {
+      $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+       });
+      });
+        
+    // Scrolling Effect
+      $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+          $('nav').addClass('black');
+        }
+        else {
+          $('nav').removeClass('black');
+        }
+      })
+  </script>
+</body>
+</html>
